@@ -5,9 +5,9 @@ namespace son.Net_web.Controllers
 {
     public class RingHub : Hub
     {
-        public async Task SendNotifications(string message)
+        public async Task SendNotifications()
         {
-            await Clients.All.SendAsync("ReceiveMessage", message);
+            await Clients.All.SendAsync("ReceiveNotifications", "Ring rong rong");
         }
     }
 }

@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97e41056-1f0d-43ee-b37f-1a6906bfd2f1" name="Default Changelist" comment="Add index + root features">
-      <change beforePath="$PROJECT_DIR$/son.Net_web/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/son.Net_web/wwwroot/js/signalr/dist/browser/signalr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/son.Net_web/wwwroot/js/signalr/dist/browser/signalr.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.son.Net_web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.son.Net_web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/Pages/notification.js" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/wwwroot/js/notification.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/son.Net_web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/son.Net_web.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +42,6 @@
       <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" />
       <option value="$PROJECT_DIR$/son.Net_web/WeatherForecast.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Ring.cs" />
-      <option value="$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Pages/index.cshtml" />
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/Firebase.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/dzdadaz.cs" />
@@ -45,8 +50,10 @@
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/Sound.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Pages/notification.js" />
       <option value="$PROJECT_DIR$/son.Net_web/Startup.cs" />
-      <option value="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" />
       <option value="$PROJECT_DIR$/son.Net_web/Properties/launchSettings.json" />
+      <option value="$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" />
+      <option value="$PROJECT_DIR$/son.Net_web/wwwroot/js/notification.js" />
+      <option value="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1r6gbd08qioS2M0rSwmEadIwMHi" />
@@ -129,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619522675336</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add index + root features">
+      <created>1619522919260</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619522919260</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

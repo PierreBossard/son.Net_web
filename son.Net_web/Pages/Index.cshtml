@@ -9,29 +9,32 @@
 
 <html>
 <head>
-    <script src="~/js/signalr/dist/brower/signalr.js"></script>
-    <script src="notification.js"></script>
     <title>Son.Nette</title>
+    
 </head>
 <body>
+
  <div class="container">
-        <div class="row">&nbsp;</div>   
-        <div class="row">&nbsp;</div>
-        <div class="row">
-            <div class="col-6">
-                <input type="button" id="sendButton" value="Send Message" />
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            <hr />
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-6">
-            <ul id="messagesList"></ul>
-        </div>
-    </div>
+         <div class="row">&nbsp;</div>
+         
+         <div class="row">&nbsp;</div>
+         <div class="row">
+             <div class="col-6">
+                 <input type="button" id="sendButton" value="Send Notification" />
+             </div>
+         </div>
+     </div>
+     <div class="row">
+         <div class="col-12">
+             <hr />
+         </div>
+     </div>
+     <div class="row">
+         <div class="col-6">
+             <ul id="messagesList"></ul>
+         </div>
+     </div>
+    <script src="~/js/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/notification.js"></script>
 </body>
 </html>
