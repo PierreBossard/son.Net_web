@@ -1,15 +1,16 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 using Google.Cloud.Firestore;
-using SO=System.IO.File;
 using Google.Cloud.Firestore.V1;
+using Microsoft.AspNetCore.Mvc;
+using SO=System.IO.File;
 
 namespace son.Net_web.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class Firebase : ControllerBase
+    
+    public class Sound : ControllerBase
     {
         
         [HttpGet]
@@ -19,7 +20,7 @@ namespace son.Net_web.Controllers
             var builder = new FirestoreClientBuilder {JsonCredentials = jsonString};
             FirestoreDb db = FirestoreDb.Create("son-net-2f41b", builder.Build());
 
-            DocumentReference docRef = db.Collection("ring").Document("1ZODNCZC");
+            CollectionReference docCollec = db.Collection("ring");
             
             Dictionary<string, object> ring = new Dictionary<string, object>
             {
@@ -27,8 +28,8 @@ namespace son.Net_web.Controllers
                 { "state", true}
                 //Add datta 
             };
-            
-            var res = await docRef.UpdateAsync(ring);
+
+            var res = await docCollec.AddAsync(ring);
             
             return res.ToString();
         }
