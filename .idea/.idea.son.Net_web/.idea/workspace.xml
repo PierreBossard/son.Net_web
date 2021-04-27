@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97e41056-1f0d-43ee-b37f-1a6906bfd2f1" name="Default Changelist" comment="Add firebase features">
-      <change afterPath="$PROJECT_DIR$/son.Net_web/Pages/notification.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.son.Net_web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.son.Net_web/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="97e41056-1f0d-43ee-b37f-1a6906bfd2f1" name="Default Changelist" comment="Add index + root features">
       <change beforePath="$PROJECT_DIR$/son.Net_web/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/son.Net_web.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/son.Net_web.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/son.Net_web.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/son.Net_web.csproj.nuget.g.props" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +23,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/son.Net_web/Controllers/Firebase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/cleme/Documents/ESAIP/ING4/Informatique/.Net/son.Net_web/son.Net_web/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/cleme/Documents/ESAIP/ING4/Informatique/.Net/son.Net_web/son.Net_web/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/cleme/Documents/ESAIP/ING4/Informatique/.Net/son.Net_web/son.Net_web/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/cleme/Documents/ESAIP/ING4/Informatique/.Net/son.Net_web/son.Net_web/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/cleme/Documents/ESAIP/ING4/Informatique/.Net/son.Net_web/son.Net_web/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -44,15 +38,15 @@
       <option value="$PROJECT_DIR$/son.Net_web/Ring.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Pages/index.cshtml" />
-      <option value="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" />
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/Firebase.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/dzdadaz.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/RingController.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/Ring.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/Sound.cs" />
-      <option value="$PROJECT_DIR$/son.Net_web/Properties/launchSettings.json" />
       <option value="$PROJECT_DIR$/son.Net_web/Pages/notification.js" />
       <option value="$PROJECT_DIR$/son.Net_web/Startup.cs" />
+      <option value="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" />
+      <option value="$PROJECT_DIR$/son.Net_web/Properties/launchSettings.json" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1r6gbd08qioS2M0rSwmEadIwMHi" />
@@ -128,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619508821165</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add index + root features">
+      <created>1619522675336</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619522675336</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +151,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add firebase features" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add firebase features" />
+    <MESSAGE value="Add index + root features" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add index + root features" />
   </component>
 </project>
