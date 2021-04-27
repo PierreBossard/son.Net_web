@@ -7,7 +7,7 @@ namespace son.Net_web.Controllers
     {
         public async Task SendNotifications()
         {
-            await Clients.All.SendAsync("ReceiveNotifications", "Ring rong rong");
+            await Clients.All.SendAsync("ReceiveNotifications", "Ding Dong");
         }
     }
 }

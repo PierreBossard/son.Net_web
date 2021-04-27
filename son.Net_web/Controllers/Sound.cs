@@ -3,15 +3,23 @@ using System.Threading.Tasks;
 using Google.Cloud.Firestore;
 using Google.Cloud.Firestore.V1;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
 using SO=System.IO.File;
 
 namespace son.Net_web.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("sound")]
     
     public class Sound : ControllerBase
     {
+        private readonly IHubContext<RingHub> _hubContext;
+
+        public Sound(IHubContext<RingHub> hubContext)
+        {
+            _hubContext = hubContext;
+        }
+        
         
         [HttpGet]
         public async Task<string> Get()
@@ -23,14 +31,15 @@ namespace son.Net_web.Controllers
             CollectionReference docCollec = db.Collection("ring");
             
             Dictionary<string, object> ring = new Dictionary<string, object>
-            {
+            {    
+                //Add datta 
                 { "date", Timestamp.GetCurrentTimestamp() },
                 { "state", true}
-                //Add datta 
             };
 
-            var res = await docCollec.AddAsync(ring);
+            await _hubContext.Clients.All.SendAsync("ReceiveNotifications", "Test");
             
+            var res = await docCollec.AddAsync(ring);
             return res.ToString();
         }
     }
