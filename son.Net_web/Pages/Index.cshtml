@@ -10,11 +10,28 @@
 <html>
 <head>
     <script src="~/js/signalr/dist/brower/signalr.js"></script>
-    <title> Son.Nette</title>
+    <script src="notification.js"></script>
+    <title>Son.Nette</title>
 </head>
 <body>
-<div>
-    
-</div>
+ <div class="container">
+        <div class="row">&nbsp;</div>   
+        <div class="row">&nbsp;</div>
+        <div class="row">
+            <div class="col-6">
+                <input type="button" id="sendButton" value="Send Message" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <hr />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <ul id="messagesList"></ul>
+        </div>
+    </div>
 </body>
 </html>

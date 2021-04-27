@@ -39,6 +39,8 @@ namespace son.Net_web
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseStaticFiles();
+            
             app.UseHttpsRedirection();
 
             app.UseRouting();

@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97e41056-1f0d-43ee-b37f-1a6906bfd2f1" name="Default Changelist" comment="Add firebase features">
-      <change afterPath="$PROJECT_DIR$/son.Net_web/Controllers/Sound.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/son.Net_web/son-net-2f41b-65e974d96873.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/son.Net_web/Pages/notification.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.son.Net_web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.son.Net_web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/Controllers/Firebase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Controllers/Firebase.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/project.assets.json" afterDir="false" />
@@ -35,7 +34,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/son.Net_web/Controllers/Firebase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/55BA972F-E037-4C51-ADC7-FE815653FB86/6/DocumentReference.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -45,15 +43,16 @@
       <option value="$PROJECT_DIR$/son.Net_web/WeatherForecast.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Ring.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" />
-      <option value="$PROJECT_DIR$/son.Net_web/Startup.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Pages/index.cshtml" />
       <option value="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" />
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/Firebase.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/dzdadaz.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/RingController.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/Ring.cs" />
-      <option value="$PROJECT_DIR$/son.Net_web/Properties/launchSettings.json" />
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/Sound.cs" />
+      <option value="$PROJECT_DIR$/son.Net_web/Properties/launchSettings.json" />
+      <option value="$PROJECT_DIR$/son.Net_web/Pages/notification.js" />
+      <option value="$PROJECT_DIR$/son.Net_web/Startup.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1r6gbd08qioS2M0rSwmEadIwMHi" />
