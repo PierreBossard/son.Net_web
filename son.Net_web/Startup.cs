@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using son.Net_web.Controllers;
 
 namespace son.Net_web
 {
@@ -26,6 +27,7 @@ namespace son.Net_web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddSignalR();
             services.AddControllers();
         }
 
@@ -47,7 +49,7 @@ namespace son.Net_web
             {
                 endpoints.MapControllers();
                 endpoints.MapRazorPages();
-                //endpoints.MapHub()
+                endpoints.MapHub<RingHub>("/ringHub");
             });
         }
     }
