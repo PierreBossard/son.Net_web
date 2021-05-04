@@ -1,10 +1,11 @@
 using System;
+using Google.Cloud.Firestore;
 
 namespace son.Net_web
 {
     public class Ring
     {
-        public DateTime date { get; set; }
+        public Timestamp date { get; set; }
 
     }
 }

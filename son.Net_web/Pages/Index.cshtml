@@ -9,32 +9,36 @@
 
 <html>
 <head>
-    <title>Son.Nette</title>
-    
+    <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css" />
+    <title>Son.Nette</title>    
 </head>
 <body>
 
- <div class="container">
-         <div class="row">&nbsp;</div>
-         
-         <div class="row">&nbsp;</div>
-         <div class="row">
-             <div class="col-6">
-                 <input type="button" id="sendButton" value="Send Notification"/>
-             </div>
-         </div>
-     </div>
-     <div class="row">
-         <div class="col-12">
-             <hr />
-         </div>
-     </div>
-     <div class="row">
-         <div class="col-6">
-             <ul id="messagesList"></ul>
-         </div>
-     </div>
-    <script src="~/js/signalr/dist/browser/signalr.js"></script>
-    <script src="~/js/notification.js"></script>
+<nav class="navbar navbar-light bg-light">
+    <div class="mx-auto order-0">
+        <span class="navbar-brand mb-0 h1">Son.NET</span>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">&nbsp;</div>
+
+    <div class="row">&nbsp;</div>
+    <div class="row">
+        <div class="col-6">
+            <input id="sendButton" value="Send Notification" type="button" class="btn btn-primary"/>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-6">
+            <ul id="messagesList"></ul>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/notification.js"></script>
 </body>
 </html>
