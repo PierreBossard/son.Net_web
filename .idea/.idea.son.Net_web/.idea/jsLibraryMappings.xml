@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" libraries="{bootstrap}" />
+    <file url="file://$PROJECT_DIR$/son.Net_web/Controllers/Sound.cs" libraries="{bootstrap}" />
+    <file url="file://$PROJECT_DIR$/son.Net_web/Models/Ring.cs" libraries="{bootstrap}" />
+    <file url="file://$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" libraries="{bootstrap}" />
+    <file url="file://$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml.cs" libraries="{bootstrap}" />
+    <file url="file://$PROJECT_DIR$/son.Net_web/Program.cs" libraries="{bootstrap}" />
+    <file url="file://$PROJECT_DIR$/son.Net_web/Properties/launchSettings.json" libraries="{bootstrap}" />
+    <file url="file://$PROJECT_DIR$/son.Net_web/Ring.cs" libraries="{bootstrap}" />
+    <file url="file://$PROJECT_DIR$/son.Net_web/Services/RingService.cs" libraries="{bootstrap}" />
+    <file url="file://$PROJECT_DIR$/son.Net_web/Startup.cs" libraries="{bootstrap}" />
+    <file url="file://$PROJECT_DIR$/son.Net_web/appsettings.Development.json" libraries="{bootstrap}" />
+    <file url="file://$PROJECT_DIR$/son.Net_web/appsettings.json" libraries="{bootstrap}" />
+    <file url="file://$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.AssemblyInfo.cs" libraries="{bootstrap}" />
+    <file url="file://$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.RazorAssemblyInfo.cs" libraries="{bootstrap}" />
+    <file url="file://$PROJECT_DIR$/son.Net_web/son-net-2f41b-65e974d96873.json" libraries="{bootstrap}" />
+    <file url="file://$PROJECT_DIR$/son.Net_web/son.Net_web.csproj" libraries="{bootstrap}" />
+    <file url="file://$PROJECT_DIR$/son.Net_web/wwwroot/js/history.js" libraries="{bootstrap}" />
+    <file url="file://$PROJECT_DIR$/son.Net_web/wwwroot/js/notification.js" libraries="{bootstrap}" />
+    <file url="file://$PROJECT_DIR$/son.Net_web/wwwroot/js/signalr/dist/browser/signalr.js" libraries="{bootstrap}" />
+    <file url="file://$PROJECT_DIR$/son.Net_web/wwwroot/js/signalr/dist/browser/signalr.min.js" libraries="{bootstrap}" />
+  </component>
+</project>
