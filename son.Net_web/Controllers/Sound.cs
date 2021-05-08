@@ -1,8 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Google.Cloud.Firestore;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
+using son.Net_web.Models;
 using SO=System.IO.File;
 using son.Net_web.Services;
 
@@ -25,15 +27,15 @@ namespace son.Net_web.Controllers
         
         [HttpGet]
         public async Task Get()
-        {
-            Models.Ring ring = new Models.Ring();
-
-            ring.date = Timestamp.GetCurrentTimestamp(); 
+        {  
+            List<Ring> list = new List<Ring>();
             
+            Ring ring = new Ring();
+            ring.date = DateTime.Now.ToString();
             await service.AddRing(ring);
-            await service.RetrieveRings();
+           list = await service.RetrieveRings();
 
-            await _hubContext.Clients.All.SendAsync("ReceiveNotifications", "Test");
+           await _hubContext.Clients.All.SendAsync("ReceiveNotifications", "Ding Dong", list);
         }
     }
 

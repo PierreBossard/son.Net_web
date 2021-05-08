@@ -1,12 +1,17 @@
 ﻿
 using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Firebase.Database;
 using Firebase.Database.Query;
 using Google.Cloud.Firestore;
 using Google.Cloud.Firestore.V1;
+using Google.Protobuf.WellKnownTypes;
+using son.Net_web.Models;
 using SO=System.IO.File;
+using Timestamp = Google.Cloud.Firestore.Timestamp;
 
 namespace son.Net_web.Services
 {
@@ -17,27 +22,36 @@ namespace son.Net_web.Services
 
         static FirestoreDb db = FirestoreDb.Create("son-net-2f41b", builder.Build());
         CollectionReference docCollec = db.Collection("ring");
-        public async Task AddRing(Models.Ring ring)
+        public async Task AddRing(Ring ring)
                     {
                         await docCollec.AddAsync(new Dictionary<string, object>()
                         {
-                            {"date", Timestamp.GetCurrentTimestamp()},
+                            {"date", ring.date},
                         });
                     }
 
-        public async Task RetrieveRings()
+        public async Task<List<Ring>> RetrieveRings()
         {
+            List<Ring> list = new List<Ring>();
             Query allRingsQuery = db.Collection("ring");
             QuerySnapshot allRingsQuerySnapshot = await allRingsQuery.GetSnapshotAsync();
             foreach (DocumentSnapshot documentSnapshot in allRingsQuerySnapshot.Documents)
             {
-                Console.WriteLine(documentSnapshot.Id);
+
+               
                 Dictionary<string, object> ring = documentSnapshot.ToDictionary();
                 foreach (KeyValuePair<string, object> pair in ring)
                 {
-                    Console.WriteLine("{1} \n", pair.Key, pair.Value);
+                    Ring r = new Ring();
+                    r.date = pair.Value.ToString();
+                    list.Add(r);
                 }
+                
+               
+
             }
+
+            return list;
         }
     }
 }

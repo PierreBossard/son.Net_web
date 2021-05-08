@@ -7,6 +7,6 @@ namespace son.Net_web.Models
     public class Ring
     {
         [FirestoreProperty]
-        public Timestamp date { get; set;}
+        public String date { get; set;}
     }
 }

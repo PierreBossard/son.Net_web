@@ -3,12 +3,33 @@
   <component name="ChangeListManager">
     <list default="true" id="97e41056-1f0d-43ee-b37f-1a6906bfd2f1" name="Default Changelist" comment="Add model et service">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.son.Net_web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.son.Net_web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/Controllers/Sound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Controllers/Sound.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/Models/Ring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Models/Ring.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/Ring.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/Services/RingService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Services/RingService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.runtimeconfig.dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/son.Net_web.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/son.Net_web.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/son.Net_web.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/son.Net_web.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/wwwroot/js/notification.js" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/wwwroot/js/notification.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,10 +56,10 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/76EC9956-A97F-4729-B1C0-9E2A5A239D3E/1E0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/55BA972F-E037-4C51-ADC7-FE815653FB86/21/Timestamp.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/55BA972F-E037-4C51-ADC7-FE815653FB86/6/DocumentReference.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/76EC9956-A97F-4729-B1C0-9E2A5A239D3E/49/DateTime.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -53,19 +74,20 @@
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/Ring.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Pages/notification.js" />
       <option value="$PROJECT_DIR$/son.Net_web/Startup.cs" />
-      <option value="$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Properties/launchSettings.json" />
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/Firebase.cs" />
-      <option value="$PROJECT_DIR$/son.Net_web/Models/Ring.cs" />
-      <option value="$PROJECT_DIR$/son.Net_web/Controllers/Sound.cs" />
-      <option value="$PROJECT_DIR$/son.Net_web/Services/RingService.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/wwwroot/js/history.js" />
       <option value="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" />
+      <option value="$PROJECT_DIR$/son.Net_web/Models/Ring.cs" />
+      <option value="$PROJECT_DIR$/son.Net_web/Services/RingService.cs" />
+      <option value="$PROJECT_DIR$/son.Net_web/Controllers/Sound.cs" />
+      <option value="$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/wwwroot/js/notification.js" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1r6gbd08qioS2M0rSwmEadIwMHi" />
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -82,6 +104,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.son.Net_web">
@@ -133,6 +156,8 @@
       <workItem from="1619514318619" duration="1995000" />
       <workItem from="1620111914777" duration="250000" />
       <workItem from="1620114369870" duration="15487000" />
+      <workItem from="1620310251034" duration="2133000" />
+      <workItem from="1620475324828" duration="8542000" />
     </task>
     <task id="LOCAL-00001" summary="Add firebase features">
       <created>1619508821165</created>
