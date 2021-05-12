@@ -1588,19 +1588,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bossa\\.nuget\\packages\\": {}
+    "C:\\Users\\cleme\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bossa\\OneDrive\\Documents\\GitHub\\son.Net_web\\son.Net_web\\son.Net_web.csproj",
+      "projectUniqueName": "C:\\Users\\cleme\\Documents\\ESAIP\\ING4\\Informatique\\.Net\\son.Net_web\\son.Net_web\\son.Net_web.csproj",
       "projectName": "son.Net_web",
-      "projectPath": "C:\\Users\\bossa\\OneDrive\\Documents\\GitHub\\son.Net_web\\son.Net_web\\son.Net_web.csproj",
-      "packagesPath": "C:\\Users\\bossa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bossa\\OneDrive\\Documents\\GitHub\\son.Net_web\\son.Net_web\\obj\\",
+      "projectPath": "C:\\Users\\cleme\\Documents\\ESAIP\\ING4\\Informatique\\.Net\\son.Net_web\\son.Net_web\\son.Net_web.csproj",
+      "packagesPath": "C:\\Users\\cleme\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cleme\\Documents\\ESAIP\\ING4\\Informatique\\.Net\\son.Net_web\\son.Net_web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\bossa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cleme\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1649,6 +1649,16 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

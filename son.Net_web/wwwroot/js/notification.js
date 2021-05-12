@@ -2,7 +2,7 @@
 
 const connection = new signalR.HubConnectionBuilder().withUrl("/ringHub").build();
 let table = document.getElementById('messagesList');
-let gif = Freezeframe(document.getElementById('bell-gif'))
+//let gif = Freezeframe(document.getElementById('bell-gif'))
 
 connection.on("ReceiveNotifications", function (message, list) {
     
@@ -29,13 +29,13 @@ connection.on("ReceiveNotifications", function (message, list) {
 const notify = function (message) {
     if(Notification.permission === 'granted'){
         const options = {
+            re
             icon : "" ,
-            body : 'Ajouter texte corps',
+            body : 'Une nouvelle notification vient d\'arriver.',
             silent : false
         };
-        //TODO IMPLEMENT ACTION IN NOTIF
+       
         var notif = new Notification(message, options);
-        
     }
    
 }

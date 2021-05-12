@@ -33,7 +33,7 @@ namespace son.Net_web.Services
         public async Task<List<Ring>> RetrieveRings()
         {
             List<Ring> list = new List<Ring>();
-            Query allRingsQuery = db.Collection("ring");
+            Query allRingsQuery = db.Collection("ring").OrderByDescending("date").Limit(25);
             QuerySnapshot allRingsQuerySnapshot = await allRingsQuery.GetSnapshotAsync();
             foreach (DocumentSnapshot documentSnapshot in allRingsQuerySnapshot.Documents)
             {
