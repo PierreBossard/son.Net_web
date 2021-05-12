@@ -17,7 +17,7 @@ connection.on("ReceiveNotifications", function (message, list) {
     }
 
     setTimeout(() => {
-        gif.setAttribute("src", "https://nsa40.casimages.com/img/2021/05/12/210512111644217907.jpg")
+        gif.setAttribute("src", "https://nsa40.casimages.com/img/2021/05/12/210512122739684312.jpg")
     }, 30000);
 
     setTimeout(pauseAudio(), 30000);

@@ -1,32 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97e41056-1f0d-43ee-b37f-1a6906bfd2f1" name="Default Changelist" comment="Update">
-      <change afterPath="$PROJECT_DIR$/son.Net_web/obj/door-bell.mp3" afterDir="false" />
+    <list default="true" id="97e41056-1f0d-43ee-b37f-1a6906bfd2f1" name="Default Changelist" comment="add start and stop gif">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.son.Net_web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.son.Net_web/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/Pages/bell.gif" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.runtimeconfig.dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/son.Net_web.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/son.Net_web.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/son.Net_web.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/son.Net_web.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/son.Net_web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/son.Net_web.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/wwwroot/js/notification.js" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/wwwroot/js/notification.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,8 +60,8 @@
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/Sound.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Services/RingService.cs" />
-      <option value="$PROJECT_DIR$/son.Net_web/wwwroot/js/notification.js" />
       <option value="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" />
+      <option value="$PROJECT_DIR$/son.Net_web/wwwroot/js/notification.js" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1r6gbd08qioS2M0rSwmEadIwMHi" />
@@ -192,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620130372886</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add start and stop gif">
+      <created>1620814148712</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1620814148712</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +206,7 @@
     <MESSAGE value="Add index + root features" />
     <MESSAGE value="Add model et service" />
     <MESSAGE value="Add notification view and list of historic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add notification view and list of historic" />
+    <MESSAGE value="add start and stop gif" />
+    <option name="LAST_COMMIT_MESSAGE" value="add start and stop gif" />
   </component>
 </project>
