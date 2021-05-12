@@ -33,9 +33,9 @@ namespace son.Net_web.Controllers
             Ring ring = new Ring();
             ring.date = DateTime.Now.ToString();
             await service.AddRing(ring);
-           list = await service.RetrieveRings();
+            list = await service.RetrieveRings();
 
-           await _hubContext.Clients.All.SendAsync("ReceiveNotifications", "Ding Dong", list);
+            await _hubContext.Clients.All.SendAsync("ReceiveNotifications", "Ding Dong", list);
         }
     }
 

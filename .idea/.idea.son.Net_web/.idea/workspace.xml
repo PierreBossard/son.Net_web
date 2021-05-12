@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97e41056-1f0d-43ee-b37f-1a6906bfd2f1" name="Default Changelist" comment="add start and stop gif">
+    <list default="true" id="97e41056-1f0d-43ee-b37f-1a6906bfd2f1" name="Default Changelist" comment="update gif static">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.son.Net_web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.son.Net_web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/Controllers/Sound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Controllers/Sound.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/Models/Ring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Models/Ring.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/Services/RingService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Services/RingService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/wwwroot/js/notification.js" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/wwwroot/js/notification.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,12 +63,12 @@
       <option value="$PROJECT_DIR$/son.Net_web/Properties/launchSettings.json" />
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/Firebase.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/wwwroot/js/history.js" />
-      <option value="$PROJECT_DIR$/son.Net_web/Models/Ring.cs" />
-      <option value="$PROJECT_DIR$/son.Net_web/Controllers/Sound.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" />
+      <option value="$PROJECT_DIR$/son.Net_web/Controllers/Sound.cs" />
+      <option value="$PROJECT_DIR$/son.Net_web/wwwroot/js/notification.js" />
+      <option value="$PROJECT_DIR$/son.Net_web/Models/Ring.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Services/RingService.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" />
-      <option value="$PROJECT_DIR$/son.Net_web/wwwroot/js/notification.js" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1r6gbd08qioS2M0rSwmEadIwMHi" />
@@ -138,6 +145,7 @@
       <workItem from="1620310251034" duration="2133000" />
       <workItem from="1620475324828" duration="8542000" />
       <workItem from="1620648441588" duration="7130000" />
+      <workItem from="1620819583112" duration="1752000" />
     </task>
     <task id="LOCAL-00001" summary="Add firebase features">
       <created>1619508821165</created>
@@ -181,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620814148712</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update gif static">
+      <created>1620814580480</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1620814580480</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +222,7 @@
     <MESSAGE value="Add model et service" />
     <MESSAGE value="Add notification view and list of historic" />
     <MESSAGE value="add start and stop gif" />
-    <option name="LAST_COMMIT_MESSAGE" value="add start and stop gif" />
+    <MESSAGE value="update gif static" />
+    <option name="LAST_COMMIT_MESSAGE" value="update gif static" />
   </component>
 </project>

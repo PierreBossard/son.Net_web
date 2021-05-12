@@ -6,49 +6,49 @@
 }
 
 <!DOCTYPE html>
-
 <html lang="fr">
-<head>
-    <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css" />
-    <title style="font-size: 40px; font-weight: bold">Son.Nette</title>    
-</head>
+
+    <head>
+        @* import de Bootsrap stylisé avec son cdn *@
+        <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css"/>
+        <title style="font-size: 40px; font-weight: bold">Son.Nette</title>
+    </head>
+
 <body>
-<audio id="myAudio">
-  <source src="~/obj/door-bell.mp3" type="audio/mpeg">
-</audio>
+    @* Navbar *@ 
+    <nav class="navbar navbar-dark" style="background-color: #6619E3">
+        <div class="mx-auto order-0">
+            <span class="navbar-brand mb-0 h1">Son.NET</span>
+        </div>
+    </nav>
 
-<nav class="navbar navbar-dark" style="background-color: #6619E3">
-    <div class="mx-auto order-0">
-        <span class="navbar-brand mb-0 h1">Son.NET</span>
-    </div>
-</nav>
-
-<div class="container">
-    <div class="row">
-        <img src="https://nsa40.casimages.com/img/2021/05/12/210512122739684312.jpg" alt="bell gif" class="mx-auto" id="bell-gif">
-    </div>
-    <div class="row">
-        <div class="col-12">
-            <table class="table">
-                <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Date</th>
-                    <th scope="col">Heure</th>
-                </tr>
-                </thead>
-                <tbody id="messagesList">
-
-                </tbody>
-            </table>
+    @* Corp de la page *@ 
+    <div class="container">
+        <div class="row">
+            @* Image de la sonnette *@ 
+            <img src="https://nsa40.casimages.com/img/2021/05/12/210512122739684312.jpg" alt="bell gif" class="mx-auto" id="bell-gif">
+        </div>
+        <div class="row">
+            <div class="col-12">
+                @* Tableau pour l'historique *@ 
+                <h4 class="mb-3">Historique des appels</h4>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Heure</th>
+                    </tr>
+                    </thead>
+                    <tbody id="messagesList">
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
-</div>
 
-<script src="~/js/signalr/dist/browser/signalr.js"></script>
-<script src="~/js/notification.js"></script>
-<script>
-      
-</script>
+    @* Script lié à la page *@ 
+    <script src="~/js/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/notification.js"></script>
 </body>
 </html>
