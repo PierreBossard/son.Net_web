@@ -15,5 +15,12 @@
       <None Include="wwwroot\js\notification.js" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Resource Include="obj\door-bell.mp3">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        <DependentUpon>Index.cshtml</DependentUpon>
+      </Resource>
+    </ItemGroup>
+
 
 </Project>

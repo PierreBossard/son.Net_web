@@ -2,18 +2,33 @@
 
 const connection = new signalR.HubConnectionBuilder().withUrl("/ringHub").build();
 let table = document.getElementById('messagesList');
-//let gif = Freezeframe(document.getElementById('bell-gif'))
+let gif = document.getElementById('bell-gif');
+let audio = document.getElementById('myAudio');
 
 connection.on("ReceiveNotifications", function (message, list) {
     
     let encodedMsg = message.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
     
-    
-    for (let i= 0; i < list.length; i++){
+    gif.setAttribute("src", "https://cdn.dribbble.com/users/1179659/screenshots/4103621/image.gif");
+    audio.play();
         
+    function pauseAudio() {
+        audio.pause();
+    }
+
+    setTimeout(() => {
+        gif.setAttribute("src", "https://nsa40.casimages.com/img/2021/05/12/210512111644217907.jpg")
+    }, 30000);
+
+    setTimeout(pauseAudio(), 30000);
+
+
+
+
+
+    for (let i= 0; i < list.length; i++){
         let date = list[i].date;
         let splitDate = date.split(' ');
-        
         let row = table.insertRow(i);
         var cell1 = row.insertCell(0);
         var cell2 = row.insertCell(1);
@@ -29,7 +44,6 @@ connection.on("ReceiveNotifications", function (message, list) {
 const notify = function (message) {
     if(Notification.permission === 'granted'){
         const options = {
-            re
             icon : "" ,
             body : 'Une nouvelle notification vient d\'arriver.',
             silent : false

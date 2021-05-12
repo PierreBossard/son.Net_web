@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97e41056-1f0d-43ee-b37f-1a6906bfd2f1" name="Default Changelist" comment="Add notification view and list of historic">
+    <list default="true" id="97e41056-1f0d-43ee-b37f-1a6906bfd2f1" name="Default Changelist" comment="Update">
+      <change afterPath="$PROJECT_DIR$/son.Net_web/obj/door-bell.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.son.Net_web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.son.Net_web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/Services/RingService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Services/RingService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/son.Net_web/Pages/bell.gif" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.runtimeconfig.dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.assets.cache" afterDir="false" />
@@ -53,12 +53,10 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/55BA972F-E037-4C51-ADC7-FE815653FB86/21/Timestamp.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/76EC9956-A97F-4729-B1C0-9E2A5A239D3E/1E0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/son.Net_web/wwwroot/js/notification.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/55BA972F-E037-4C51-ADC7-FE815653FB86/1B/Query.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/76EC9956-A97F-4729-B1C0-9E2A5A239D3E/49/DateTime.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/son.Net_web/wwwroot/js/notification.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -81,6 +79,7 @@
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Services/RingService.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/wwwroot/js/notification.js" />
+      <option value="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1r6gbd08qioS2M0rSwmEadIwMHi" />
