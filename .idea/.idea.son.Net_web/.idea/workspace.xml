@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97e41056-1f0d-43ee-b37f-1a6906bfd2f1" name="Default Changelist" comment="Add model et service">
+      <change afterPath="$PROJECT_DIR$/son.Net_web/Pages/bell.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.son.Net_web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.son.Net_web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/Controllers/Sound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Controllers/Sound.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/Models/Ring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Models/Ring.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/Ring.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/Services/RingService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/Services/RingService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/bin/Debug/netcoreapp3.1/son.Net_web.dll" afterDir="false" />
@@ -19,7 +15,6 @@
       <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/son.Net_web.genruntimeconfig.cache" afterDir="false" />
@@ -56,10 +51,10 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/55BA972F-E037-4C51-ADC7-FE815653FB86/21/Timestamp.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/76EC9956-A97F-4729-B1C0-9E2A5A239D3E/1E0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/son.Net_web/wwwroot/js/notification.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/son.Net_web/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/76EC9956-A97F-4729-B1C0-9E2A5A239D3E/49/DateTime.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -77,11 +72,11 @@
       <option value="$PROJECT_DIR$/son.Net_web/Properties/launchSettings.json" />
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/Firebase.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/wwwroot/js/history.js" />
-      <option value="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" />
       <option value="$PROJECT_DIR$/son.Net_web/Models/Ring.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Services/RingService.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/Sound.cs" />
       <option value="$PROJECT_DIR$/son.Net_web/Controllers/RingHub.cs" />
+      <option value="$PROJECT_DIR$/son.Net_web/Pages/Index.cshtml" />
       <option value="$PROJECT_DIR$/son.Net_web/wwwroot/js/notification.js" />
     </changedPaths>
   </component>
@@ -94,7 +89,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34950384" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34940413" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -158,6 +153,7 @@
       <workItem from="1620114369870" duration="15487000" />
       <workItem from="1620310251034" duration="2133000" />
       <workItem from="1620475324828" duration="8542000" />
+      <workItem from="1620648441588" duration="7130000" />
     </task>
     <task id="LOCAL-00001" summary="Add firebase features">
       <created>1619508821165</created>

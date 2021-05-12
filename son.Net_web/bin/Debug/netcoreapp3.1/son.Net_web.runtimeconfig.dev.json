@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\cleme\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\cleme\\.nuget\\packages"
+      "C:\\Users\\bossa\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\bossa\\.nuget\\packages"
     ]
   }
 }
